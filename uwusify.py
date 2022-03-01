@@ -33,6 +33,7 @@ def uwuthis(word):
 
 
 def uwusify(userInput):
+    global convertedSentence, alphabet
     words = userInput.split(" ")
     for i in words:
         uwuthis(i)
