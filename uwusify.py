@@ -39,4 +39,4 @@ def uwusify(userInput):
         uwuthis(i)
     temp = convertedSentence
     convertedSentence = ""
-    return convertedSentence
+    return temp
