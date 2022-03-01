@@ -37,4 +37,6 @@ def uwusify(userInput):
     words = userInput.split(" ")
     for i in words:
         uwuthis(i)
+    temp = convertedSentence
+    convertedSentence = ""
     return convertedSentence
